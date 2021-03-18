@@ -1,0 +1,64 @@
+{
+	"variables": [],
+	"info": {
+		"name": "nmock",
+		"_postman_id": "8cceae58-7f6b-9ebd-b071-5255f66b59fa",
+		"description": "nmock postman collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET_hello",
+			"request": {
+				"url": "http://localhost:3001/rest/v1/hello",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET_hello_with_name",
+			"request": {
+				"url": "http://localhost:3001/rest/v1/hello/Mark",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET_middleware",
+			"request": {
+				"url": "http://localhost:3001/rest/v1/middleware/Mark",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "POST_hello",
+			"request": {
+				"url": "http://localhost:3001/rest/v1/hello",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"username\": \"Anuwat\",\n\t\"website\": \"https://unknownclub.net/\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
