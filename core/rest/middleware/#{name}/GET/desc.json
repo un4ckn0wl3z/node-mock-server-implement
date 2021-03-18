@@ -1,0 +1,12 @@
+{
+  "desc": "test middleware",
+  "security": [],
+  "protected": false,
+  "status": "",
+  "response": {
+    "statusCode": 200,
+    "schema": {
+      "type": "application/json"
+    }
+  }
+}

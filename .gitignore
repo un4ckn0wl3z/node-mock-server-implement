@@ -1,0 +1,3 @@
+core/rest/*/*/*/mock/response.txt
+# Dependency directories
+node_modules/

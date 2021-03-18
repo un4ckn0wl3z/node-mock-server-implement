@@ -1,0 +1,4 @@
+{
+    "msg": "<%-addNamePrefix(params.name);%>",
+    "page": "page <%=query.page%>"
+}
